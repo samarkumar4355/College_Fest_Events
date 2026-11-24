@@ -1,0 +1,113 @@
+nav {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #18181b;
+    border: 1px solid #3f3f46;
+    color: #f4f4f5;
+    padding: 12px;
+    border-radius: 6px;
+    width: 220px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+    font-size: 1.1rem;
+    margin: 0 0 8px 0;
+    color: #ffffff;
+}
+
+.card p {
+    margin: 4px 0;
+    font-size: 0.875rem;
+    color: #d4d4d8;
+}
+
+.card .card-actions {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card .housefull {
+    margin: 0;
+    font-weight: bold;
+    color: #ef4444;
+}
+
+button {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: background-color 0.15s ease;
+}
+
+button:hover {
+    background-color: #3b82f6;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+    background-color: #18181b;
+    color: #f4f4f5;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #a1a1aa;
+}
+
+select {
+    padding: 8px;
+    background-color: #18181b;
+    color: #f4f4f5;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+}
+
+.badge {
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+a {
+    color: #60a5fa;
+}
+
+a:hover {
+    color: #93c5fd;
+}
