@@ -6,7 +6,7 @@ UID: 213
 
 Problem Statement: P2 - College Fest Events
 
-Vercel Link: https://divyansh-agarwal-midsem-phase2.vercel.app
+Vercel Link: https://collegefestevents.vercel.app/events
 
 ## How to run
 
