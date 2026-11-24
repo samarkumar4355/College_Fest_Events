@@ -1,8 +1,8 @@
 # College Fest Events
 
-Name: Divyansh Agarwal
+Name: Samar Kumar
 
-UID: 213
+UID: 127
 
 Problem Statement: P2 - College Fest Events
 
